@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a14392-67e5-43c1-a5d3-7c58230e8118" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Part2OOP/ScalaInheritanceAndTrait.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Part2OOP/AbstractDataType.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Objects/Objects.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Objects/Objects.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,15 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/beginer/Expressions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/beginer/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Part2OOP/ScalaInheritanceAndTrait.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Part2OOP/AbstractDataType.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -149,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Part2OOP/MethodNotation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Objects/Objects.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Part2OOP/ScalaInheritanceAndTrait.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Part2OOP/AbstractDataType.scala" />
       </list>
     </option>
   </component>
@@ -212,7 +212,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578494193485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578496431690" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -229,9 +229,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScalaInheritanceAndTrait">
-    <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Part2OOP.Basics" />
+  <component name="RunManager" selected="Application.AbstractDataType">
+    <configuration name="AbstractDataType" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Part2OOP.AbstractDataType" />
       <module name="ScalaFuncProg" />
       <extension name="coverage">
         <pattern>
@@ -297,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractDataType" />
         <item itemvalue="Application.ScalaInheritanceAndTrait" />
         <item itemvalue="Application.Objects" />
         <item itemvalue="Application.MethodNotation" />
         <item itemvalue="Application.PracticeExample1" />
-        <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -349,11 +349,18 @@
       <option name="presentableId" value="Default" />
       <updated>1576826652903</updated>
     </task>
+    <task id="LOCAL-00001" summary="New lecture excersize added">
+      <created>1578494270233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578494270234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,7 +372,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42874846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42874846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +381,7 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,6 +393,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New lecture excersize added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New lecture excersize added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.sbt">
@@ -469,6 +480,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Part2OOP/AbstractDataType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
